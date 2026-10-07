@@ -1,0 +1,12 @@
+incident_id,source,source_type,relationship,destination,destination_type
+INC-001,185.44.21.90,IP,CONNECTED_TO,Alan,User
+INC-001,Alan,User,USED_DEVICE,UNKNOWN-LAPTOP-01,Device
+INC-001,UNKNOWN-LAPTOP-01,Device,FILE_ACCESS,payroll.xlsx,File
+INC-001,UNKNOWN-LAPTOP-01,Device,FILE_COPY_USB,payroll.xlsx,File
+INC-001,payroll.xlsx,File,COPIED_TO,USB-991,USB
+INC-002,91.205.189.15,IP,CONNECTED_TO,Jenifa,User
+INC-002,Jenifa,User,USED_DEVICE,UNKNOWN-LAPTOP-77,Device
+INC-002,UNKNOWN-LAPTOP-77,Device,USED_APPLICATION,PowerShell,Application
+INC-002,UNKNOWN-LAPTOP-77,Device,FILE_ACCESS,employee_credentials.csv,File
+INC-002,UNKNOWN-LAPTOP-77,Device,UPLOAD_EXTERNAL,employee_credentials.csv,File
+INC-002,employee_credentials.csv,File,UPLOADED_TO,external-cloud-storage,External Service

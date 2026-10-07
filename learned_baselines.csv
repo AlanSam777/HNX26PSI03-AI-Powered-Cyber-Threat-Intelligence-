@@ -1,0 +1,9 @@
+user,known_devices,known_ips,known_applications,normal_hour_min,normal_hour_max,average_activity_hour
+Alan,PC-101,10.0.0.11,"chrome, excel, outlook, teams, word",8,18,12.95
+Alishiba,PC-103,10.0.0.13,"chrome, excel, outlook, teams, word",8,18,13.34
+Angel,PC-107,10.0.0.17,"chrome, excel, outlook, teams, word",8,18,13.19
+George,PC-106,10.0.0.16,"chrome, excel, outlook, teams, word",8,18,13.15
+Hari,PC-102,10.0.0.12,"chrome, excel, outlook, teams, word",8,18,13.09
+Jenifa,PC-108,10.0.0.18,"chrome, excel, outlook, teams, word",8,18,12.34
+Praisy,PC-104,10.0.0.14,"chrome, excel, outlook, teams, word",8,18,13.22
+Sam,PC-105,10.0.0.15,"chrome, excel, outlook, teams, word",8,18,12.75

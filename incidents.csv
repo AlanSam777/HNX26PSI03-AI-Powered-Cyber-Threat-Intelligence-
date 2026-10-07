@@ -1,0 +1,3 @@
+incident_id,user,start_time,end_time,duration_minutes,event_count,evidence_count,evidence_total,evidence_completeness,correlation_window_minutes,risk_score,severity,suspicious_login,sensitive_data_access,suspicious_application,usb_activity,potential_exfiltration
+INC-001,Alan,2026-10-07 21:43:00,2026-10-07 21:51:00,8.0,4,4,5,0.8,60,91,CRITICAL,1,1,0,1,1
+INC-002,Jenifa,2026-10-07 20:15:00,2026-10-07 20:24:00,9.0,4,4,5,0.8,60,91,CRITICAL,1,1,1,0,1

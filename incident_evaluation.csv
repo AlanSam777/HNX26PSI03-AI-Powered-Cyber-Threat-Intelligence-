@@ -1,0 +1,9 @@
+metric,value
+True Attack Scenarios,2.0
+Reconstructed Attack Scenarios,2.0
+True Confirmed Incidents,2.0
+False Confirmed Incidents,0.0
+Missed Attack Scenarios,0.0
+Incident Precision,1.0
+Incident Recall,1.0
+Incident F1,1.0

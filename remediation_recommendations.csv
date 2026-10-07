@@ -1,0 +1,17 @@
+incident_id,priority,category,recommendation,rationale
+INC-001,HIGH,Evidence Preservation,"Preserve relevant endpoint, authentication and network telemetry before remediation.",Maintains evidence required for investigation and root-cause analysis.
+INC-001,HIGH,Identity,Review active sessions for Alan and terminate suspicious sessions.,The account was observed from a previously unseen device or IP address.
+INC-001,MEDIUM,Identity,Review authentication history for Alan and validate whether the activity was authorized.,Helps distinguish account misuse from legitimate remote access.
+INC-001,HIGH,Data Protection,Review all sensitive files accessed during the incident time window.,Sensitive resources were accessed as part of the reconstructed chain.
+INC-001,HIGH,Removable Media,Identify and quarantine the removable device for forensic review where organizational policy permits.,USB activity was linked to the reconstructed incident.
+INC-001,CRITICAL,Containment,Isolate the affected endpoint from the network pending analyst validation.,Sensitive data transfer to removable media was directly observed.
+INC-001,HIGH,Forensics,Determine whether additional files were copied to the same removable device.,Establishes the potential scope of data exposure.
+INC-001,HIGH,Incident Response,Escalate the incident for data-exposure assessment and determine the affected information.,The evidence chain contains indicators consistent with data exfiltration.
+INC-002,HIGH,Evidence Preservation,"Preserve relevant endpoint, authentication and network telemetry before remediation.",Maintains evidence required for investigation and root-cause analysis.
+INC-002,HIGH,Identity,Review active sessions for Jenifa and terminate suspicious sessions.,The account was observed from a previously unseen device or IP address.
+INC-002,MEDIUM,Identity,Review authentication history for Jenifa and validate whether the activity was authorized.,Helps distinguish account misuse from legitimate remote access.
+INC-002,HIGH,Data Protection,Review all sensitive files accessed during the incident time window.,Sensitive resources were accessed as part of the reconstructed chain.
+INC-002,HIGH,Endpoint Investigation,Investigate suspicious application activity and collect associated process or command history.,Potentially dual-use administrative tooling appeared inside the correlated attack sequence.
+INC-002,CRITICAL,Containment,Contain the affected endpoint and investigate the external destination.,An outbound transfer of sensitive data was directly observed.
+INC-002,HIGH,Network Security,Consider blocking the external destination after validating business impact.,Reduces the possibility of continued unauthorized outbound transfer.
+INC-002,HIGH,Incident Response,Escalate the incident for data-exposure assessment and determine the affected information.,The evidence chain contains indicators consistent with data exfiltration.

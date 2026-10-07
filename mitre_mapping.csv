@@ -1,0 +1,8 @@
+incident_id,event_id,timestamp,user,event_type,technique_id,technique_name,tactic,confidence,evidence_basis
+INC-001,EVT-00903,2026-10-07 21:43:00,Alan,LOGIN,T1078,Valid Accounts,Multiple,Contextual,Login from an unseen device or IP is consistent with Valid Accounts behaviour. Credential compromise is not independently proven.
+INC-001,EVT-00904,2026-10-07 21:46:00,Alan,FILE_ACCESS,T1005,Data from Local System,Collection,Contextual,Sensitive local data was accessed during the reconstructed sequence.
+INC-001,EVT-00906,2026-10-07 21:51:00,Alan,FILE_COPY_USB,T1052.001,Exfiltration Over Physical Medium: Exfiltration over USB,Exfiltration,High,A file copy to removable USB media was directly recorded.
+INC-002,EVT-00907,2026-10-07 20:15:00,Jenifa,LOGIN,T1078,Valid Accounts,Multiple,Contextual,Login from an unseen device or IP is consistent with Valid Accounts behaviour. Credential compromise is not independently proven.
+INC-002,EVT-00908,2026-10-07 20:18:00,Jenifa,APP_ACCESS,T1059.001,Command and Scripting Interpreter: PowerShell,Execution,Contextual,PowerShell activity was observed inside the correlated attack window.
+INC-002,EVT-00909,2026-10-07 20:21:00,Jenifa,FILE_ACCESS,T1005,Data from Local System,Collection,Contextual,Sensitive local data was accessed during the reconstructed sequence.
+INC-002,EVT-00910,2026-10-07 20:24:00,Jenifa,UPLOAD_EXTERNAL,T1567.002,Exfiltration Over Web Service: Exfiltration to Cloud Storage,Exfiltration,High,A file upload to an external cloud-storage destination was recorded.
